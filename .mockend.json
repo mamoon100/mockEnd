@@ -1,8 +1,8 @@
 {
   "Post": {
     "title": { "string": {} },
-
-    "likes": { "int": { "min": 0, "max": 1000000 } },
-    "comments": { "int": { "min": 0, "max": 1000000 } }
+    "photos": "https://picsum.photos/1080/1920",
+    "likes": { "int": { "min": 0, "max": 10000 } },
+    "comments": { "int": { "min": 0, "max": 150 } }
   }
 }
