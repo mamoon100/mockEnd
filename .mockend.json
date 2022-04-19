@@ -1,0 +1,11 @@
+{
+  "Posts": {
+    "photos": {
+      "string": [
+        {
+          "regex": "https://picsum\\.photos/seed/[0-9]{5}/1920/27"
+        }
+      ]
+    }
+  }
+}
