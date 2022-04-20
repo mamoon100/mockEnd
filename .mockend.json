@@ -3,8 +3,7 @@
     "title": { "string": {} },
     "likes": { "int": { "min": 0, "max": 10000 } },
     "comments": { "int": { "min": 0, "max": 150 } },
-    "user": {
-      "firstName": { "regexp": "[A-Z][a-z]{5,10}" }
-    }
+    "user_name": { "regexp": "[A-Z][a-z]{5,10}" },
+    "user_avatar": "https://i.pravatar.cc/500"
   }
 }
