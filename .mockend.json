@@ -24,6 +24,14 @@
     "user_name": {
       "regexp": "[A-Z][a-z]{5,10}"
     },
-    "user_avatar": { "string": ["https://i.pravatar.cc/500"] }
+    "user_avatar": {
+      "string": ["https://i.pravatar.cc/500"]
+    },
+    "createdAt": {
+      "dateTime": {
+        "min": "2010-01-01T00:00:00Z",
+        "max": "2020-12-31T23:59:59Z"
+      }
+    }
   }
 }
