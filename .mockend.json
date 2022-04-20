@@ -4,6 +4,6 @@
     "likes": { "int": { "min": 0, "max": 10000 } },
     "comments": { "int": { "min": 0, "max": 150 } },
     "user_name": { "regexp": "[A-Z][a-z]{5,10}" },
-    "user_avatar": { "string": "https://i.pravatar.cc/500" }
+    "user_avatar": { "string": ["https://i.pravatar.cc/500"] }
   }
 }
